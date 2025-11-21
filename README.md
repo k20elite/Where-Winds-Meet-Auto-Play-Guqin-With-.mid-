@@ -41,5 +41,12 @@ Công cụ sử dụng thuật toán **Dò Giọng Thông Minh** để ép bài 
 
 ---
 
+### Security Note / False Positives
+If your antivirus flags the executable, this is a False Positive due to the tool's low-level nature:
+* Input Injection: The tool uses user32.SendInput to mimic physical hardware keystrokes. This is necessary to bypass game anti-cheat but is often flagged as "Macro/Bot" behavior by AV heuristics.
+* Global Hooks: The tool uses user32.GetAsyncKeyState to detect the Scroll Lock hotkey globally. This behavior resembles Keylogger patterns, leading to generic warnings.
+### Assurance: The source code is purely local, contains no network capabilities, and operates strictly within the scope of MIDI-to-Keystroke translation.
+Scan result: https://www.virustotal.com/gui/file/d309562bee59623213f0b72afbae751bb0dedfd89f07783e4aab21645530e34c
+
 ### ⚠️ Disclaimer
 This tool is provided "as-is" for educational purposes. Use responsibly within game terms of service.
