@@ -50,3 +50,5 @@ Scan result: https://www.virustotal.com/gui/file/d309562bee59623213f0b72afbae751
 
 ### ⚠️ Disclaimer
 This tool is provided "as-is" for educational purposes. Use responsibly within game terms of service.
+
+My in-game name is **WhiteRaven**. DM me if there are any issues.
